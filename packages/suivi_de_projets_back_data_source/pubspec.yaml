@@ -1,0 +1,16 @@
+name: suivi_de_projets_back_data_source
+description: Un backend qui permet de gérer le projet suivi-de-projets
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  json_serializable: ^6.7.0
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^5.0.0
+dependencies:
+  equatable: ^2.0.5

@@ -1,0 +1,21 @@
+name: suivi_de_projets_back
+description: An new Dart Frog application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  dart_frog: ^0.3.0
+  database:
+    path: packages/database
+  suivi_de_projets_back_data_source:
+    path: packages/suivi_de_projets_back_data_source
+  watcher: ^1.1.0
+
+dev_dependencies:
+  json_serializable: ^6.7.0
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^4.0.0
